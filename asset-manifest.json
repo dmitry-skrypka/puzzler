@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/puzzler/static/css/main.826cf486.chunk.css",
-    "main.js": "/puzzler/static/js/main.1c4f551a.chunk.js",
-    "main.js.map": "/puzzler/static/js/main.1c4f551a.chunk.js.map",
+    "main.css": "/puzzler/static/css/main.6e963ad0.chunk.css",
+    "main.js": "/puzzler/static/js/main.1f470482.chunk.js",
+    "main.js.map": "/puzzler/static/js/main.1f470482.chunk.js.map",
     "runtime~main.js": "/puzzler/static/js/runtime~main.b257e4fe.js",
     "runtime~main.js.map": "/puzzler/static/js/runtime~main.b257e4fe.js.map",
-    "static/js/2.d71b4dd5.chunk.js": "/puzzler/static/js/2.d71b4dd5.chunk.js",
-    "static/js/2.d71b4dd5.chunk.js.map": "/puzzler/static/js/2.d71b4dd5.chunk.js.map",
+    "static/js/2.20a1dde2.chunk.js": "/puzzler/static/js/2.20a1dde2.chunk.js",
+    "static/js/2.20a1dde2.chunk.js.map": "/puzzler/static/js/2.20a1dde2.chunk.js.map",
     "index.html": "/puzzler/index.html",
-    "precache-manifest.32461faae0d80cf0666b0d04af62b53b.js": "/puzzler/precache-manifest.32461faae0d80cf0666b0d04af62b53b.js",
+    "precache-manifest.be59730488c7c33b28693ff7fed786a6.js": "/puzzler/precache-manifest.be59730488c7c33b28693ff7fed786a6.js",
     "service-worker.js": "/puzzler/service-worker.js",
-    "static/css/main.826cf486.chunk.css.map": "/puzzler/static/css/main.826cf486.chunk.css.map",
+    "static/css/main.6e963ad0.chunk.css.map": "/puzzler/static/css/main.6e963ad0.chunk.css.map",
     "static/media/defaultPuzzleImage.jpg": "/puzzler/static/media/defaultPuzzleImage.8f3f5394.jpg",
     "static/media/solved.gif": "/puzzler/static/media/solved.6b7a0ff1.gif"
   }
