@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/puzzler/static/css/main.6e963ad0.chunk.css",
+    "main.css": "/puzzler/static/css/main.066421fb.chunk.css",
     "main.js": "/puzzler/static/js/main.1f470482.chunk.js",
     "main.js.map": "/puzzler/static/js/main.1f470482.chunk.js.map",
     "runtime~main.js": "/puzzler/static/js/runtime~main.b257e4fe.js",
@@ -8,9 +8,9 @@
     "static/js/2.20a1dde2.chunk.js": "/puzzler/static/js/2.20a1dde2.chunk.js",
     "static/js/2.20a1dde2.chunk.js.map": "/puzzler/static/js/2.20a1dde2.chunk.js.map",
     "index.html": "/puzzler/index.html",
-    "precache-manifest.be59730488c7c33b28693ff7fed786a6.js": "/puzzler/precache-manifest.be59730488c7c33b28693ff7fed786a6.js",
+    "precache-manifest.f01a4534b0a12dea73fa6388b80d3b44.js": "/puzzler/precache-manifest.f01a4534b0a12dea73fa6388b80d3b44.js",
     "service-worker.js": "/puzzler/service-worker.js",
-    "static/css/main.6e963ad0.chunk.css.map": "/puzzler/static/css/main.6e963ad0.chunk.css.map",
+    "static/css/main.066421fb.chunk.css.map": "/puzzler/static/css/main.066421fb.chunk.css.map",
     "static/media/defaultPuzzleImage.jpg": "/puzzler/static/media/defaultPuzzleImage.8f3f5394.jpg",
     "static/media/solved.gif": "/puzzler/static/media/solved.6b7a0ff1.gif"
   }
