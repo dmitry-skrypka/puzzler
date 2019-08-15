@@ -1,49 +1,33 @@
 import React from "react";
-import { swap } from "../helpers/arrayElemsSwapper";
 import { connect } from "react-redux";
-import { makeItEasy, movement, randomize } from "../Actions/puzzleActions";
+import { makeItEasy, randomize } from "../Actions/puzzleActions";
 import { shuffleArray } from "../helpers/arrayShufller";
 
-class ControlPanel extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-  randomizeClickHandler = () => {
-    const { randomizeTiles, puzzleMap } = this.props;
+const ControlPanel = props => {
+  const { movesCount, randomizeTiles, puzzleMap, makeEasy } = props;
+  const randomizeClickHandler = () => {
     randomizeTiles(shuffleArray(puzzleMap));
   };
 
-  makeItEasyClickHandler = () => {
-    const { makeEasy } = this.props;
+  const makeItEasyClickHandler = () => {
     makeEasy();
   };
 
-  render() {
-    const { movesCounter } = this.props;
-    return (
-      <div style={{ margin: 20, width: 200 }} className="tilesWrapper">
-        <div style={{ margin: 20, textAlign: "center" }}>
-          <div>Moves: {movesCounter}</div>
-          <div
-            role="button"
-            className="button"
-            onClick={this.randomizeClickHandler}
-          >
-            RANDOMIZE
-          </div>
+  return (
+    <div className="tilesWrapper">
+      <div style={{ margin: 20, textAlign: "center" }}>
+        <div>Moves: {movesCount}</div>
+        <div role="button" className="button" onClick={randomizeClickHandler}>
+          RANDOMIZE
+        </div>
 
-          <div
-            role="button"
-            className="button"
-            onClick={this.makeItEasyClickHandler}
-          >
-            MAKE IT EASY
-          </div>
+        <div role="button" className="button" onClick={makeItEasyClickHandler}>
+          MAKE IT EASY
         </div>
       </div>
-    );
-  }
-}
+    </div>
+  );
+};
 const mapDispatchToProps = dispatch => ({
   randomizeTiles: arr => {
     dispatch(randomize(arr));

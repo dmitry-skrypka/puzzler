@@ -19,4 +19,8 @@ const solved = bool => ({
   type: ACTIONS.SOLVED,
   payload: bool
 });
-export { movement, randomize, makeItEasy, solved };
+const playAgain = arr => ({
+  type: ACTIONS.PLAY_AGAIN,
+  payload: arr
+});
+export { movement, randomize, makeItEasy, solved, playAgain };

@@ -2,7 +2,14 @@ import image from "../assets/defaultPuzzleImage.jpg";
 import React from "react";
 
 const Tile = props => {
-  const { tileIndex, tile, tileMovementHandler, imageSize, puzzleSideSize,tileSize } = props;
+  const {
+    tileIndex,
+    tile,
+    tileMovementHandler,
+    imageSize,
+    puzzleSideSize,
+    tileSize
+  } = props;
   const side = imageSize / puzzleSideSize;
   const blankElement = tile === 0;
   const x = (tile % puzzleSideSize) * side;
@@ -13,7 +20,7 @@ const Tile = props => {
   return (
     <div
       role="button"
-      onClick={tile === 0 ? null : handleClick}
+      onClick={tile ? handleClick : null}
       style={{
         width: `${tileSize}px`,
         height: `${tileSize}px`,
@@ -25,7 +32,7 @@ const Tile = props => {
         textAlign: "center"
       }}
     >
-      <span className="emptyCell"> {blankElement ? "EMPTY" : null}</span>
+      <span className="emptyCell"> {blankElement && "EMPTY"}</span>
     </div>
   );
 };

@@ -3,9 +3,21 @@
   display: flex;
   justify-content: center;
 }
-
+.AppContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 900px;
+  min-width: 900px;
+  justify-content: center;
+}
 .tilesWrapper {
   height: 200px;
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 816px;
+
+  /*width: 200px;*/
   position: relative;
   -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3),
     0 0 40px rgba(0, 0, 0, 0.1) inset;
@@ -101,11 +113,10 @@
   transition: opacity 0.3s ease;
   position: absolute;
   overflow: hidden;
-
 }
 .popUpContent {
   position: relative;
-  left: 50%;
+  left: 35%;
   top: 20%;
   width: 328px;
   background-color: #aa9a89;
